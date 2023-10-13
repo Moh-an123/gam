@@ -18,8 +18,9 @@
     width: 300px;
     height: 300px;
     display: grid;
-    grid-template-columns:100px 100px 100px ;
+    
     grid-template-rows:100px 100px 100px;
+    grid-template-columns:100px 100px 100px ;
 }
 .g div:nth-child(even){
     border: 4px solid rgb(46, 42, 42);
@@ -31,7 +32,7 @@
 .g div:nth-child(odd){
     border: 4px solid rgb(255, 255, 255);
   border-collapse:collapse;
-  background-color: rgb(255, 0, 0);
+  background-color: rgb(172, 46, 46);
   margin: 2px;
 }
 .g>div{
@@ -42,4 +43,17 @@
 }
 #res{
   font-size: 3em;
+  width: 300px;
+  height: 70px;
+  text-align: center;
+  color: rgba(255, 1, 1, 0.61);
+}
+.rst{
+  margin: 29px;
+  width: 150px;
+  height: 60px;
+  background-color: blanchedalmond;
+  color: black;
+  
+  border-radius: 25px;
 }
