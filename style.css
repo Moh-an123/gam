@@ -20,18 +20,30 @@ header{
     padding-inline: 20px;
 }
 header h1{
-   max-width: 40%;
+   max-width: 440px;
    font-size: 3em;
    font-weight: bold;
+   text-decoration: underline;
 }
 .nav1{
-    max-width: 50%;
+    max-width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
 
+@media screen and (max-width:630px) {
+    .nav1{
+        /* max-width: 80%; */
+        display: flex;
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+    }
 }
 .nav1 a{
     text-decoration: none;
     font-size: 1.5rem;
-    margin-inline: 20px;
+    margin-inline:1rem;
     color: black;
     padding-inline: 10px;
     padding-block:5px ;
